@@ -1,3 +1,10 @@
 ---
 collections:
-  - name: https://github.com/p3ck/ansible-collections_azure.git,audit
+  - name: azure.azcollection
+    version: ">=1.10.0"
+  - name: community.azure
+    version: ">=1.1.0"
+  - name: https://github.com/p3ck/ansible-collections_azure.git
+    type: git
+    version: dev
+  - name: cloud.azure_ops
